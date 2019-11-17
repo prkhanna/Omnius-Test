@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Everjobs Suite">
+<test name="SeleniumTest">
+<classes>
+<class name="com.auto.selenium.base.BaseTest" />
+<class name="com.auto.selenium.pagetest.LoginTest" />
+ <class name="com.auto.selenium.pagetest.HomePageTest" />
+ <class name="com.auto.selenium.pagetest.TrainPageTest" />
+ <class name="com.auto.selenium.pagetest.DataModelerPageTest" /> 
+ <class name="com.auto.selenium.pagetest.AnnotatePageTest" />
+</classes>
+</test>
+</suite>

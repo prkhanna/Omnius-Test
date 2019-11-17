@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="20" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Everjobs Suite" duration-ms="70531" started-at="2019-11-17T18:34:16 IST" finished-at="2019-11-17T18:35:27 IST">
+    <groups>
+    </groups>
+    <test name="SeleniumTest" duration-ms="70531" started-at="2019-11-17T18:34:16 IST" finished-at="2019-11-17T18:35:27 IST">
+      <class name="com.auto.selenium.pagetest.LoginTest">
+        <test-method status="PASS" signature="checkCredentialFields()[pri:0, instance:com.auto.selenium.pagetest.LoginTest@7d471839]" name="checkCredentialFields" duration-ms="154" started-at="2019-11-17T18:34:16 IST" finished-at="2019-11-17T18:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCredentialFields -->
+        <test-method status="PASS" signature="checkErrorText()[pri:0, instance:com.auto.selenium.pagetest.LoginTest@7d471839]" name="checkErrorText" duration-ms="2342" started-at="2019-11-17T18:34:16 IST" finished-at="2019-11-17T18:34:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkErrorText -->
+        <test-method status="PASS" signature="checkValidCredentials()[pri:0, instance:com.auto.selenium.pagetest.LoginTest@7d471839]" name="checkValidCredentials" duration-ms="3833" started-at="2019-11-17T18:34:19 IST" finished-at="2019-11-17T18:34:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidCredentials -->
+      </class> <!-- com.auto.selenium.pagetest.LoginTest -->
+      <class name="com.auto.selenium.pagetest.HomePageTest">
+        <test-method status="PASS" signature="checkforAnnotationPage()[pri:0, instance:com.auto.selenium.pagetest.HomePageTest@ff733ad]" name="checkforAnnotationPage" duration-ms="964" started-at="2019-11-17T18:34:23 IST" finished-at="2019-11-17T18:34:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforAnnotationPage -->
+        <test-method status="PASS" signature="checkforDataPage()[pri:0, instance:com.auto.selenium.pagetest.HomePageTest@ff733ad]" name="checkforDataPage" duration-ms="617" started-at="2019-11-17T18:34:24 IST" finished-at="2019-11-17T18:34:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforDataPage -->
+        <test-method status="PASS" signature="checkforDisabledLink()[pri:0, instance:com.auto.selenium.pagetest.HomePageTest@ff733ad]" name="checkforDisabledLink" duration-ms="30094" started-at="2019-11-17T18:34:24 IST" finished-at="2019-11-17T18:34:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforDisabledLink -->
+      </class> <!-- com.auto.selenium.pagetest.HomePageTest -->
+      <class name="com.auto.selenium.pagetest.DataModelerPageTest">
+        <test-method status="PASS" signature="checkTable()[pri:0, instance:com.auto.selenium.pagetest.DataModelerPageTest@e999bd96]" name="checkTable" duration-ms="15431" started-at="2019-11-17T18:35:10 IST" finished-at="2019-11-17T18:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTable -->
+        <test-method status="PASS" signature="TestSearchData()[pri:0, instance:com.auto.selenium.pagetest.DataModelerPageTest@e999bd96]" name="TestSearchData" duration-ms="359" started-at="2019-11-17T18:35:25 IST" depends-on-methods="com.auto.selenium.pagetest.DataModelerPageTest.checkTable" finished-at="2019-11-17T18:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSearchData -->
+      </class> <!-- com.auto.selenium.pagetest.DataModelerPageTest -->
+      <class name="com.auto.selenium.base.BaseTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.auto.selenium.base.BaseTest@8cf58301]" name="openBrowser" is-config="true" duration-ms="6059" started-at="2019-11-17T18:34:10 IST" finished-at="2019-11-17T18:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.auto.selenium.base.BaseTest@8cf58301]" name="closeBrowser" is-config="true" duration-ms="1090" started-at="2019-11-17T18:35:27 IST" finished-at="2019-11-17T18:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.auto.selenium.base.BaseTest -->
+      <class name="com.auto.selenium.pagetest.AnnotatePageTest">
+        <test-method status="PASS" signature="AddCollection()[pri:0, instance:com.auto.selenium.pagetest.AnnotatePageTest@aeee41c]" name="AddCollection" duration-ms="1297" started-at="2019-11-17T18:35:25 IST" finished-at="2019-11-17T18:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCollection -->
+      </class> <!-- com.auto.selenium.pagetest.AnnotatePageTest -->
+      <class name="com.auto.selenium.pagetest.TrainPageTest">
+        <test-method status="PASS" signature="checkElementTable()[pri:0, instance:com.auto.selenium.pagetest.TrainPageTest@9ec8c06d]" name="checkElementTable" duration-ms="15346" started-at="2019-11-17T18:34:54 IST" finished-at="2019-11-17T18:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementTable -->
+      </class> <!-- com.auto.selenium.pagetest.TrainPageTest -->
+    </test> <!-- SeleniumTest -->
+  </suite> <!-- Everjobs Suite -->
+</testng-results>
